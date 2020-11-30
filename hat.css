@@ -1,0 +1,41 @@
+.title{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 35px;
+    font-weight: 600;
+    padding:0px 30px 50px 30px;
+    width: 30%;
+    position: absolute;
+    left: 50%;
+}
+
+.collection-page{
+    padding: 1px 1px;
+    margin: 5px 1px 5px 5px;
+}
+
+.item{
+    display: flex;
+    flex-wrap: wrap;
+    border: 2px ;
+    margin: 10px;
+    float: left;
+}
+.collection-item {
+    width: 15%;
+    height: 15%;
+    margin: 2.1%;
+    padding: 1px;
+    float: left;
+}
+.image{
+    width: 280px ;
+    height: 280px ;
+}
+
+.collection-item-price{
+    text-align: right;
+}
+
+.name{
+    text-align: left;
+}
